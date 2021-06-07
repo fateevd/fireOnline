@@ -1,0 +1,28 @@
+$(document).ready(function(){
+$('.slider').slick({
+  arrows:false,
+  slidesToShow:6,
+  slidesToScroll:1,
+  touchThreshold:8,
+  waitForAnimate:false,
+  centerMode:false,
+});
+$('.sliderbig').slick({
+  arrows:true,
+  slidesToShow:3,
+  slidesToScroll:3,
+  touchThreshold:8,
+  waitForAnimate:false,
+centerMode:true,
+adaptiveHeight:true
+});
+$('.slider_comments').slick({
+  arrows:true,
+  slidesToShow:3,
+  slidesToScroll:3,
+  touchThreshold:8,
+  waitForAnimate:false,
+centerMode:true,
+adaptiveHeight:true
+});
+});
